@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfama Hoşgeldiniz!</title>
+
+    <style>
+         body {
+      margin: 0;
+      min-height: 100vh;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: linear-gradient(to bottom, #000000, #4293b1);}
+
+        h1 {
+            color: white; }
+        .container {
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px; }
+        .main-content {
+            flex: 2; 
+            min-width: 300px; }
+
+        .sidebar-image {
+            flex: 1;
+            min-width: 250px; 
+            text-align: center;}
+        .sidebar-image img {
+            width: 100%; 
+            max-width: 800px; 
+            height: auto; 
+            border-radius: 20px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);}
+        .button-3d {
+            display: inline-block; 
+            padding: 10px 20px; 
+            margin-top: 5px; 
+            margin-bottom: 5px; 
+            font-size: 16px; 
+            font-weight: bold; 
+            color: white; 
+            text-decoration: none; 
+            text-align: center; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            transition: all 0.2s ease; 
+            background-color: #4CAF50; 
+            box-shadow: 0 5px 0 #367c39;  }
+        .button-3d:active {
+            box-shadow: 0 2px 0 #367c39; 
+            transform: translateY(3px);  }
+        .button-blue {
+            background-color: #007bff;
+            box-shadow: 0 5px 0 #0056b3; }
+        .button-blue:active {
+            box-shadow: 0 2px 0 #0056b3; }
+        .button-red {
+            background-color: #dc3545;
+            box-shadow: 0 5px 0 #a71d2a; }
+        .button-red:active {
+            box-shadow: 0 2px 0 #a71d2a; }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="main-content">
+            <h1>Sayfama Hoşgeldiniz</h1>
+            <p>Bu sayfada okuduğum okul iletişim bilgileri bir kaç proje ekleyeceğim tanıtım için oluşturulmuş bir sayfadır.</p>
+            <br>
+
+            <a href="https://www.ardahan.edu.tr/Website/Default.aspx" class="button-3d button-blue">Okulum</a>
+            <p>Şuan okumakta olduğum okul:Ardahan üniversitesi</p>
+            <br>
+
+            <a href="iletisim.html" class="button-3d">İletişim bilgilerim</a>
+            <p>Bu kısımdan bana ulaşmak isteyenler için iletişim bilgilerim bulunmakta</p>
+            <br>
+            
+            <a href="projeler.html" class="button-3d button-red">Projeler</a>
+            <p>Şimdiye kadar deneme maksatlı yaptığım bi kaç web sayfası bulunmakta.</p>
+        </div>
+
+        <div class="sidebar-image">
+            <img src="https://commonslibrary.org/wp-content/uploads/nick-karvounis-381259-unsplash-e1554118510458.jpg" alt="Benim Profil Fotoğrafım">
+            <p>Ders ile ilgili görsel.</p>
+        </div>
+
+    </div> </body>
+</html>
